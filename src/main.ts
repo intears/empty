@@ -1,3 +1,10 @@
-console.log("test");
+
+
+// testing
+
+import { Empty } from "./empty/empty";
+
+let test = new Empty();
+test.parseFormatting();
 
 
