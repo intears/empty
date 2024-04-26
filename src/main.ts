@@ -5,6 +5,10 @@
 import { Empty } from "./empty/empty";
 
 let test = new Empty();
-test.parseFormatting();
+test.getFormats().then(() => {
+  let formats = test.formattings;
+  console.log(formats)
+});
+
 
 

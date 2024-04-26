@@ -12,7 +12,7 @@
     "strict": true,
     "noUncheckedIndexedAccess": true,
     /* If transpiling with TypeScript: */
-    "module": "NodeNext",
+    "module": "commonjs",
     "outDir": "dist",
     "sourceMap": true,
     "composite": true,

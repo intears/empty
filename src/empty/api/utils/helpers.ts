@@ -29,7 +29,6 @@ export async function readForFiles(dir: string){
   // Filter out only the directories and get their names
   const returned_files = files
     .filter((dirent) => dirent.isFile())
-  console.log(returned_files);
   // Return the list of folder names
   return returned_files;
 }
